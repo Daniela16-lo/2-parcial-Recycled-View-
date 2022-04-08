@@ -1,9 +1,9 @@
 package com.example.recycledfeed_parcial2
 
-import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
 
-class MovieActivity : AppCompatActivity() {
+class activity_movies : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movies)
@@ -31,4 +31,5 @@ class MovieActivity : AppCompatActivity() {
             movies.add(movie)
         }
     }
+
 }
